@@ -13,5 +13,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: xxfxxxxxx@ds.study.iitm.ac.in
+      - name: Print message
         run: echo "Hello, world!"
