@@ -1,17 +1,16 @@
-main.yml
-name: Test Action
+name: Test Action  # Name of the workflow
 
-on:
-  push:
+on:  # Defines when this action should run
+  push:  # Trigger on push events
     branches:
-      - main  # or any branch you want to trigger the action
+      - main  # Runs when changes are pushed to the main branch
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
+  test:  # Job name
+    runs-on: ubuntu-latest  # The job will run on an Ubuntu machine
     steps:
-      - name: Checkout code
+      - name: Checkout code  # Step 1: Get the latest code
         uses: actions/checkout@v3
 
-      - name: xxfxxxxxx@ds.study.iitm.ac.in
+      - name: Run a test script  # Step 2: Example task
         run: echo "Hello, world!"
