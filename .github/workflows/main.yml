@@ -12,5 +12,5 @@ jobs:
       - name: Checkout code  # Step 1: Get the latest code
         uses: actions/checkout@v3
 
-      - name: Run a test script  # Step 2: Example task
+      - name: 22f3001831@ds.study.iitm.ac.in  # Step 2: Example task
         run: echo "Hello, world!"
